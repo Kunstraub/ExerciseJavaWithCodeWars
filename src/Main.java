@@ -15,12 +15,14 @@ public class Main {
         _4 = BinaryTreeNode.insert(_4,6);
         _4 = BinaryTreeNode.insert(_4,5);
         _4 = BinaryTreeNode.insert(_4,7);
-        System.out.println("PREORDER:");
-        BinaryTreeNode.preorder(_4);
+
+        /*System.out.println("PREORDER:");
+        BinaryTreeNode.preorder(_4,System.out::println);
         System.out.println("INORDER:");
-        BinaryTreeNode.inorder(_4);
+        BinaryTreeNode.inorder(_4,System.out::println);
         System.out.println("POSTORDER:");
-        BinaryTreeNode.postorder(_4);
+        BinaryTreeNode.postorder(_4,System.out::println);*/
+        _4.preorderIterativ(_4);
     }
 
    static boolean primzahlprüfung(int überprüfendeZahl){

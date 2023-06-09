@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da844668-e17b-4713-9a37-65e27c3d9dba" name="Changes" comment="Only some coding binärTree stuff">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ChatGPTCopilotChannelManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciseJavaWithCodeWars.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +77,19 @@
       <workItem from="1685628695463" duration="1188000" />
       <workItem from="1686036482868" duration="7369000" />
       <workItem from="1686060382929" duration="803000" />
-      <workItem from="1686122369204" duration="3679000" />
+      <workItem from="1686122369204" duration="4166000" />
+      <workItem from="1686141057102" duration="1773000" />
+      <workItem from="1686159072631" duration="637000" />
+      <workItem from="1686294406008" duration="4817000" />
     </task>
+    <task id="LOCAL-00001" summary="Only some coding binärTree stuff">
+      <created>1686128632044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686128632044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

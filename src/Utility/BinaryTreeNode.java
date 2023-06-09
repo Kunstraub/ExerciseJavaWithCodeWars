@@ -1,6 +1,8 @@
 package Utility;
 
 import java.util.Objects;
+import java.util.Stack;
+import java.util.function.Consumer;
 
 public class BinaryTreeNode<T extends Comparable<T>> {
     public final T item;
@@ -12,27 +14,61 @@ public class BinaryTreeNode<T extends Comparable<T>> {
         this.item = item;
     }
 
-    public static <T extends Comparable<T>> void preorder(final BinaryTreeNode<T> currentNode){
+    public static <T extends Comparable<T>> void preorder(final BinaryTreeNode<T> currentNode, Consumer<T> print){
         if (currentNode != null){
-            System.out.println(currentNode.item);
-            preorder(currentNode.left);
-            preorder(currentNode.right);
+            print.accept(currentNode.item);
+           // System.out.println(currentNode.item);
+            preorder(currentNode.left,System.out::println);
+            preorder(currentNode.right,System.out::println);
         }
     }
 
-    public static <T extends Comparable<T>> void inorder(final BinaryTreeNode<T> currentNode){
-        if (currentNode != null){
-            inorder(currentNode.left);
-            System.out.println(currentNode.item);
-            inorder(currentNode.right);
+    public void preorderIterativ(BinaryTreeNode<T> startNode){
+        Stack<BinaryTreeNode<T>> stack = new Stack<>();
+        BinaryTreeNode<T> currentNode = startNode;
+        while (currentNode != null || !stack.empty()){
+           // System.out.print(currentNode.item+", ");
+         /*   if(currentNode.right != null && currentNode.left != null){
+                stack.push(currentNode.right);
+            }
+
+            if (currentNode.left == null && !stack.empty()){
+                currentNode = stack.pop();
+            }
+
+            if (currentNode.left != null){
+                currentNode = currentNode.left;
+            }*/
+            if (currentNode != null){
+                System.out.print(currentNode.item+", ");
+                if (currentNode.right != null){
+                    stack.push(currentNode.right);
+                }
+                currentNode = currentNode.left;
+            }
+            else {
+                currentNode = stack.pop();
+            }
+
+
         }
     }
 
-    public static <T extends Comparable<T>> void postorder(final BinaryTreeNode<T> currentNode){
+    public static <T extends Comparable<T>> void inorder(final BinaryTreeNode<T> currentNode, Consumer<T> print){
         if (currentNode != null){
-            postorder(currentNode.left);
-            postorder(currentNode.right);
-            System.out.println(currentNode.item);
+            inorder(currentNode.left,System.out::println);
+            print.accept(currentNode.item);
+            //System.out.println(currentNode.item);
+            inorder(currentNode.right,System.out::println);
+        }
+    }
+
+    public static <T extends Comparable<T>> void postorder(final BinaryTreeNode<T> currentNode, Consumer<T> print){
+        if (currentNode != null){
+            postorder(currentNode.left, System.out::println);
+            postorder(currentNode.right, System.out::println);
+            print.accept(currentNode.item);
+           // System.out.println(currentNode.item);
         }
     }
 
