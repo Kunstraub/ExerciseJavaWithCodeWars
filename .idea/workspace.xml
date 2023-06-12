@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da844668-e17b-4713-9a37-65e27c3d9dba" name="Changes" comment="Only some coding binärTree stuff">
+    <list default="true" id="da844668-e17b-4713-9a37-65e27c3d9dba" name="Changes" comment="PreOrderIterativ is added!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" afterDir="false" />
@@ -80,7 +80,8 @@
       <workItem from="1686122369204" duration="4166000" />
       <workItem from="1686141057102" duration="1773000" />
       <workItem from="1686159072631" duration="637000" />
-      <workItem from="1686294406008" duration="4817000" />
+      <workItem from="1686294406008" duration="5505000" />
+      <workItem from="1686563906238" duration="4710000" />
     </task>
     <task id="LOCAL-00001" summary="Only some coding binärTree stuff">
       <created>1686128632044</created>
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686128632044</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PreOrderIterativ is added!!">
+      <created>1686301336847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686301336847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +106,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Only some coding stuff" />
     <MESSAGE value="Only some coding binärTree stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Only some coding binärTree stuff" />
+    <MESSAGE value="PreOrderIterativ is added!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="PreOrderIterativ is added!!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Utility/BinaryTreeNode.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
