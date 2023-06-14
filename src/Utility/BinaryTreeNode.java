@@ -14,6 +14,54 @@ public class BinaryTreeNode<T extends Comparable<T>> {
         this.item = item;
     }
 
+    public void postorderIterativ(BinaryTreeNode<T> startNode){
+
+        BinaryTreeNode<T> currentNode = startNode;
+        Stack<BinaryTreeNode<T>> stack = new Stack<>();
+        Stack<BinaryTreeNode<T>> nodeMiddleStack = new Stack<>();
+        BinaryTreeNode<T> lastNode = null;
+
+        while (currentNode != null || !stack.empty()){
+
+            if (currentNode != null)
+            {
+                stack.push(currentNode);
+                currentNode = currentNode.left;
+            }
+            else {
+
+                BinaryTreeNode<T> peekNode = stack.peek();
+                if (peekNode.right != null && lastNode != peekNode.right){
+                    currentNode = peekNode.right;
+                }
+                else {
+                    lastNode = stack.pop();
+                    System.out.print(lastNode.item+", ");
+                }
+
+            }
+        }
+    }
+
+    public void  inorderIterativUpdate(BinaryTreeNode<T> startNode){
+        Stack<BinaryTreeNode<T>> stack = new Stack<>();
+
+        BinaryTreeNode<T> currentNode = startNode;
+
+        while (currentNode != null || !stack.empty()){
+          if (currentNode != null)
+          {
+              stack.push(currentNode);
+              currentNode = currentNode.left;
+          }
+          else {
+              currentNode = stack.pop();
+              System.out.print(currentNode.item+", ");
+              currentNode = currentNode.right;
+          }
+        }
+    }
+
   public void inorderIterativ(BinaryTreeNode<T> startNode){
       Stack<BinaryTreeNode<T>> middleStack = new Stack<>();
       Stack<BinaryTreeNode<T>> leftStack = new Stack<>();

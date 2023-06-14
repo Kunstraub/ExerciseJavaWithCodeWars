@@ -23,7 +23,8 @@ public class Main {
         System.out.println("POSTORDER:");
         BinaryTreeNode.postorder(_4,System.out::println);*/
         //_4.preorderIterativ(_4);
-        _4.inorderIterativ(_4);
+        //_4.inorderIterativUpdate(_4);
+        _4.postorderIterativ(_4);
     }
 
    static boolean primzahlprüfung(int überprüfendeZahl){
