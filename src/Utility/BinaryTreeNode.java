@@ -31,7 +31,7 @@ public class BinaryTreeNode<T extends Comparable<T>> {
             else {
 
                 BinaryTreeNode<T> peekNode = stack.peek();
-                if (peekNode.right != null && lastNode != peekNode.right){
+                if (peekNode.right != null && peekNode.right != lastNode){
                     currentNode = peekNode.right;
                 }
                 else {

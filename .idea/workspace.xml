@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da844668-e17b-4713-9a37-65e27c3d9dba" name="Changes" comment="InOrderIterativ is added!! It works but there will be a more uncomplicated solution later!!">
+    <list default="true" id="da844668-e17b-4713-9a37-65e27c3d9dba" name="Changes" comment="PostOrderIterativ is added!! It works but it was a bloody battle. InOrderIterativUpdate added..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" afterDir="false" />
@@ -43,6 +43,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -84,7 +89,13 @@
       <workItem from="1686563906238" duration="5127000" />
       <workItem from="1686644599756" duration="5031000" />
       <workItem from="1686661466760" duration="2215000" />
-      <workItem from="1686729475149" duration="1748000" />
+      <workItem from="1686729475149" duration="3856000" />
+      <workItem from="1686759003122" duration="1260000" />
+      <workItem from="1687504011300" duration="1961000" />
+      <workItem from="1687591909358" duration="791000" />
+      <workItem from="1688391470307" duration="5850000" />
+      <workItem from="1688405890469" duration="3149000" />
+      <workItem from="1688455929571" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="Only some coding binärTree stuff">
       <created>1686128632044</created>
@@ -107,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686574722566</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PostOrderIterativ is added!! It works but it was a bloody battle. InOrderIterativUpdate added..">
+      <created>1686731365911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686731365911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +136,23 @@
     <MESSAGE value="Only some coding binärTree stuff" />
     <MESSAGE value="PreOrderIterativ is added!!" />
     <MESSAGE value="InOrderIterativ is added!! It works but there will be a more uncomplicated solution later!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="InOrderIterativ is added!! It works but there will be a more uncomplicated solution later!!" />
+    <MESSAGE value="PostOrderIterativ is added!! It works but it was a bloody battle. InOrderIterativUpdate added.." />
+    <option name="LAST_COMMIT_MESSAGE" value="PostOrderIterativ is added!! It works but it was a bloody battle. InOrderIterativUpdate added.." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Utility/BinaryTreeNode.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

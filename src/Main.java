@@ -24,8 +24,41 @@ public class Main {
         BinaryTreeNode.postorder(_4,System.out::println);*/
         //_4.preorderIterativ(_4);
         //_4.inorderIterativUpdate(_4);
-        _4.postorderIterativ(_4);
+       // _4.postorderIterativ(_4);
+       // System.out.println(lengthOfLongestSubstring("ohomm"));
+
     }
+    public static int lengthOfLongestSubstring(String input) {
+
+        if (input.equals(""))
+            return 0;
+
+       char[] inputArr = input.toCharArray();
+       Set<Character> inputSet = new LinkedHashSet<>();
+       inputSet.add(inputArr[0]);
+       int biggest = inputSet.size();
+       int sum;
+
+       for (int i = 1; i <= inputArr.length-1; i++){
+
+           if (inputSet.contains(inputArr[i])){
+               List<Character> characterList = new ArrayList<>(inputSet);
+               int index = characterList.indexOf(inputArr[i])+1;
+               List<Character> partList = characterList.subList(index, characterList.size());
+               inputSet.clear();
+               inputSet.addAll(partList);
+               inputSet.add(inputArr[i]);
+
+           }
+           else {
+               inputSet.add(inputArr[i]);
+               sum = inputSet.size();
+               if (sum > biggest)
+                   biggest = sum;
+           }
+       }
+       return biggest;
+            }
 
    static boolean primzahlprüfung(int überprüfendeZahl){
         for(int i = 2; i < überprüfendeZahl; i++){
@@ -45,5 +78,7 @@ public class Main {
         Arrays.sort(word2Char);
        return Arrays.equals(word1Char, word2Char);
     }
+
+
 
 }
