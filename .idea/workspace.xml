@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da844668-e17b-4713-9a37-65e27c3d9dba" name="Changes" comment="PostOrderIterativ is added!! It works but it was a bloody battle. InOrderIterativUpdate added..">
+    <list default="true" id="da844668-e17b-4713-9a37-65e27c3d9dba" name="Changes" comment="The lengthOfLongestSubstring() method is a success...juhu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility/BinaryTreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +95,8 @@
       <workItem from="1688391470307" duration="5850000" />
       <workItem from="1688405890469" duration="3149000" />
       <workItem from="1688455929571" duration="3905000" />
+      <workItem from="1688464553696" duration="3461000" />
+      <workItem from="1688473524160" duration="4498000" />
     </task>
     <task id="LOCAL-00001" summary="Only some coding binärTree stuff">
       <created>1686128632044</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686731365911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The lengthOfLongestSubstring() method is a success...juhu">
+      <created>1688465056021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688465056021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +145,8 @@
     <MESSAGE value="PreOrderIterativ is added!!" />
     <MESSAGE value="InOrderIterativ is added!! It works but there will be a more uncomplicated solution later!!" />
     <MESSAGE value="PostOrderIterativ is added!! It works but it was a bloody battle. InOrderIterativUpdate added.." />
-    <option name="LAST_COMMIT_MESSAGE" value="PostOrderIterativ is added!! It works but it was a bloody battle. InOrderIterativUpdate added.." />
+    <MESSAGE value="The lengthOfLongestSubstring() method is a success...juhu" />
+    <option name="LAST_COMMIT_MESSAGE" value="The lengthOfLongestSubstring() method is a success...juhu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -146,11 +155,6 @@
           <url>file://$PROJECT_DIR$/src/Utility/BinaryTreeNode.java</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
